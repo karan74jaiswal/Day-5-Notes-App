@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #cf9aff, #95c0ff);
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 650px;
+  margin: 50px 80px;
+}
+
+.notes-app-title {
+  display: flex;
+  width: 100px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.notes-app-title img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #650cb9;
+  outline: 0;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+button img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.notes-container {
+  list-style: none;
+}
+
+.note {
+  display: flex;
+  align-items: flex-start;
+  max-width: 350px;
+  justify-content: space-between;
+  background: #fff;
+  height: 110px;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.note p {
+  position: relative;
+  border: none;
+  outline: none;
+  color: #333;
+  width: 90%;
+  min-height: 150;
+  font-size: 16px;
+}
+
+.note img {
+  width: 25px;
+  align-self: flex-end;
+  cursor: pointer;
+}
