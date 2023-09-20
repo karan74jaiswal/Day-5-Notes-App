@@ -11,44 +11,46 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
+  min-height: 100vh;
   max-width: 650px;
   margin: 50px 80px;
+  padding-top: 4%;
+  padding-left: 10%;
 }
 
 .notes-app-title {
   display: flex;
   width: 100px;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   font-size: 35px;
   font-weight: 600;
 }
 
 .notes-app-title img {
-  width: 40px;
-  margin-right: 10px;
+  width: 60px;
+  /* margin-right: 10px; */
 }
 
 button {
   display: flex;
   align-items: center;
   color: #fff;
-  background-color: #650cb9;
+  background: linear-gradient(#9418fd, #571094);
   outline: 0;
   border: 0;
-  padding: 10px 15px;
-  border-radius: 35px;
+  padding: 15px 25px;
+  border-radius: 40px;
   font-size: 16px;
   font-weight: 400;
   cursor: pointer;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin: 30px 0 20px;
 }
 
 button img {
   width: 25px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .notes-container {
@@ -58,22 +60,21 @@ button img {
 .note {
   display: flex;
   align-items: flex-start;
-  max-width: 350px;
   justify-content: space-between;
   background: #fff;
-  height: 110px;
-  padding: 10px;
+  /* height: 110px; */
+  padding: 20px;
   border-radius: 6px;
-  margin-bottom: 30px;
+  margin: 20px 0;
 }
 
 .note p {
-  position: relative;
+  max-width: 500px;
+  min-height: 150px;
   border: none;
   outline: none;
   color: #333;
-  width: 90%;
-  min-height: 150;
+  width: 95%;
   font-size: 16px;
 }
 
